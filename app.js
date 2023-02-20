@@ -1,8 +1,8 @@
-// 1. Initializing the app:
+// 1. Initializing the app
 const express = require('express');
 const app = express();
 
-// 2. Setting view engine to pug:
+// 2. Setting view engine to pug
 app.set('view engine', 'pug');
 
 // 2. Setting app routes
@@ -22,7 +22,7 @@ app.get('/about', (req, res) => {
 
 
 
-// 3. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman):
+// 3. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
 app.listen(3000, () => {
     console.log('The app is running at localhost 3000');
 });
