@@ -9,7 +9,7 @@ app.set('view engine', 'pug');
 
 // a. Main page route:
 app.get('/', (req, res) => {
-    res.send('<h1>This is the main page of the app.</h1>')
+    res.render('index');
 });
 
 // b. About page route:
