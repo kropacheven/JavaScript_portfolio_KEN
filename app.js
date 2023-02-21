@@ -14,10 +14,16 @@ app.get('/', (req, res) => {
 
 // b. About page route:
 app.get('/about', (req, res) => {
-    res.send('<h2>This is the about page of the app.</h2>')
+    res.render('about')
 });
 
 // c. Dynamic projects routes:
+app.get('/project', (req, res) => {
+    res.render('project')
+});
+
+
+
 // (based on the id of the project that render a customized version of the Pug project template to show off each project):
 
 
