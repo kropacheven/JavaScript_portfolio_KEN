@@ -1,15 +1,19 @@
-[
-    {
-        "id": "1",
+{
+    "projects": [ {
+        "id": "0",
         "project_name": "Random phrase",
         "description": "A random quote generator is a small single-page application, allowing user to display a random famous quotation by clicking on a button. Alongside with quote, the source (author), citation, year and tags are displayed if provided (not for all quotes).If there is no button click, a new quote automatically displays every 20 seconds. With every new quote background color of the page is also being changed automatically",
-        "technologies": "Basic Java script: variables, arrays, objects, conditionals and functions. Math.random function. SetInterval function.",
+        "technologies": ["Basic Java script", "Arrays and objects", "Math.random function", "SetInterval function"],
         "live_link": "",
         "github_link": "https://github.com/kropacheven/a_random_quote_generator",
-        "img_urls": ""
+        "img_urls": [
+            "/images/p1_sup_1.png",
+            " ",
+            " "
+        ]
     },
     {
-        "id": "2",
+        "id": "1",
         "project_name": "Data pagination and filtering",
         "description": " Data pagination and filtering application allows user to distribute certain amount of student data on several pages equally according to total amount (instead of showing all students on one page). The search bar at the top allows for student search in accordance with name (first and last), while searching pagination is also working depending on the amount of total matches.",
         "technologies": "Vanilla Java script(variables, objects, functions, callbacks, loops and conditionals) implied together with the DOM interaction methods (selection, manipulation, traversal and event listening)",
@@ -18,7 +22,7 @@
         "img_urls": ""
     },
     {
-        "id": "3",
+        "id": "2",
         "project_name": "Interactive form",
         "description": "This is an interactive form of fictional Full Stack Conference. Includes inputs, selection menus, checkboxes. The project demonstrates my skills on working with online forms by making them interactive by JS programming. Includes form validation and interactive correction after form is filled.",
         "technologies": "Vanilla JavaScript(variables, objects, functions, callbacks, loops and conditionals). Forms creation and validation with use of regulalar expressions (regex).",
@@ -27,7 +31,7 @@
         "img_urls": ""
     },
     {
-        "id": "4",
+        "id": "3",
         "project_name": "Object-oriented programming(OOP) game",
         "description": "This is the phrase guessing game. After pressing 'start button' the program gives user a random phrase to guess. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly five times, a losing screen appears. A player can guess a letter only once. After they have guessed a letter, this letter is disabled on the onscreen keyboard.",
         "technologies": "Vanilla Java Script, DOM interaction and manipulations, object-oriented programming.",
@@ -36,7 +40,7 @@
         "img_urls": ""
     },
     {
-        "id": "5",
+        "id": "4",
         "project_name": "Public API request",
         "description": " This is an employee directory which randomly displays a list of 12 employees extracted from external API every time the page loads. By clicking on any employee card the modal window with more detailed information pops up, later it can be closed by pressing 'X' button on right corner. Modal window is programmed for switching back and forth between displayed employees by adding functionality on 'Prev' and 'Next' buttons. Search bar is added to interactively filter employees. The header of the page is converted into dark style mode using CSS.",
         "technologies": "Vanilla JavaScript, The DOM interaction and manipulation, fetch web requests from external API, asynchronous programming, regular expressions (regex) for converting data from API.",
@@ -44,5 +48,5 @@
         "github_link": "https://github.com/kropacheven/public_API_request",
         "img_urls": ""
     }
-    
-]
+    ]
+}
