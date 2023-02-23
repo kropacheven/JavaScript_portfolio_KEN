@@ -7,9 +7,9 @@
         "live_link": "https://kropacheven.github.io/a_random_quote_generator/",
         "github_link": "https://github.com/kropacheven/a_random_quote_generator",
         "img_urls": [
-            "static/images/p1_sup_1.png",
-            " ",
-            " "
+            "static/images/p1_banner.png",
+            "static/images/p1_sup_1.png ",
+            "static/images/p1_sup_2.png "
         ]
     },
     {
@@ -19,7 +19,11 @@
         "technologies": ["HTML", "CSS", "Vanilla JavaScript", "DOM interaction and manipulation"],
         "live_link": "https://kropacheven.github.io/data_pagination_and_filtering/",
         "github_link": "https://github.com/kropacheven/data_pagination_and_filtering",
-        "img_urls": ""
+        "img_urls": [
+            "static/images/p2_banner.png",
+            "static/images/p2_sup_1.png ",
+            "static/images/p2_sup_2.png "
+        ]
     },
     {
         "id": "2",
@@ -28,7 +32,11 @@
         "technologies": ["HTML", "CSS", "Vanilla JavaScript", "Forms creation and validation", "Regex"],
         "live_link": "https://kropacheven.github.io/Interactive_form/",
         "github_link": "https://github.com/kropacheven/Interactive_form",
-        "img_urls": ""
+        "img_urls": [
+            "static/images/p3_banner.png",
+            "static/images/p3_sup_1.png ",
+            "static/images/p3_sup_2.png "
+        ]
     },
     {
         "id": "3",
@@ -37,7 +45,11 @@
         "technologies": ["HTML", "CSS","Vanilla JavaScript", "DOM interaction and manipulations", "Object-oriented programming"],
         "live_link": "https://kropacheven.github.io/oop_game/",
         "github_link": "https://github.com/kropacheven/oop_game",
-        "img_urls": ""
+        "img_urls": [
+            "static/images/p4_banner.png",
+            "static/images/p4_sup_1.png ",
+            "static/images/p4_sup_2.png "
+        ]
     },
     {
         "id": "4",
@@ -46,7 +58,11 @@
         "technologies": ["HTML", "CSS", "Vanilla JavaScript", "DOM interaction and manipulation", "Fetch (web) API request", "Asynchronous programming", "Regex"],
         "live_link": "https://kropacheven.github.io/public_API_request/",
         "github_link": "https://github.com/kropacheven/public_API_request",
-        "img_urls": ""
+        "img_urls": [
+            "static/images/p5_banner.png",
+            "static/images/p5_sup_1.png ",
+            "static/images/p5_sup_2.png "
+        ]
     }
     ]
 }
