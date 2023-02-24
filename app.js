@@ -9,7 +9,10 @@ const app = express();
 app.set('view engine', 'pug');
 //app.use('/static', express.static('public'));
 
-// 2. Setting app routes
+// 3. Setting static server:
+app.use( '/static', express.static('public') );
+
+// 4. Setting app routes
 
 // a. Main page route:
 app.get('/', (req, res) => {
@@ -32,7 +35,7 @@ app.get('/project', (req, res) => {
 
 
 
-// 3. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
+// 5. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
 app.listen(3000, () => {
     console.log('The app is running at localhost 3000');
 });
