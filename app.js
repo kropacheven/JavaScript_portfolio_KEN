@@ -1,6 +1,7 @@
 // ----------------------------------------   1. Initializing the app
 const express = require('express');
 const data = require('./data.json').projects;
+console.log(data[0]);
 //const path = require('path');
 
 const app = express();
@@ -27,7 +28,9 @@ app.get('/about', (req, res) => {
 // c. Dynamic projects routes:
 // Project #1 - 
 app.get('/project', (req, res) => {
-    res.render('project')
+    //res.locals.project_name = data[0].project_name;
+    //res.locals.project_desc = data[0].description;
+    res.render('project', {project_name: data[0].project_name, project_desc: data[0].description, live_link: data[0].live_link, github_link: data[0].github_link, });
 });
 
 
