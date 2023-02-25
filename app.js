@@ -27,10 +27,13 @@ app.get('/about', (req, res) => {
 
 // c. Dynamic projects routes:
 // Project #1 - 
+
+let index = 4;
+
 app.get('/project', (req, res) => {
     //res.locals.project_name = data[0].project_name;
     //res.locals.project_desc = data[0].description;
-    res.render('project', {project_name: data[0].project_name, project_desc: data[0].description, live_link: data[0].live_link, github_link: data[0].github_link, });
+    res.render('project', {project_name: data[index].project_name, project_desc: data[index].description, live_link: data[index].live_link, github_link: data[index].github_link, project_techs: data[index].technologies, project_img: data[index].img_urls });
 });
 
 

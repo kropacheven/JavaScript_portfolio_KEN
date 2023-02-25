@@ -2,8 +2,8 @@
     "projects": [ {
         "id": "0",
         "project_name": "Random phrase",
-        "description": "A random quote generator is a small single-page application, allowing user to display a random famous quotation by clicking on a button. Alongside with quote, the source (author), citation, year and tags are displayed if provided (not for all quotes).If there is no button click, a new quote automatically displays every 20 seconds. With every new quote background color of the page is also being changed automatically",
-        "technologies": ["HTML", "CSS", "Basic JavaScript", "Arrays and objects", "Math.random function", "SetInterval function"],
+        "description": "A random quote generator is a small single-page application, allowing user to display a random famous quotation by clicking on the 'show' button. Alongside with quote, the source (author), citation, year and tags are displayed if provided (not for all quotes).If there is no button click, a new quote automatically displays every 20 seconds. With every new quote background color of the page is programmed to change automatically.",
+        "technologies": ["HTML", "CSS", "Basic JavaScript", "Arrays and objects", "Asynchronous programming", "Math.random()", "SetInterval()"],
         "live_link": "https://kropacheven.github.io/a_random_quote_generator/",
         "github_link": "https://github.com/kropacheven/a_random_quote_generator",
         "img_urls": [
@@ -16,52 +16,61 @@
         "id": "1",
         "project_name": "Data pagination and filtering",
         "description": " Data pagination and filtering application allows user to distribute certain amount of student data on several pages equally according to total amount (instead of showing all students on one page). The search bar at the top allows for student search in accordance with name (first and last), while searching pagination is also working depending on the amount of total matches.",
-        "technologies": ["HTML", "CSS", "Vanilla JavaScript", "DOM interaction and manipulation"],
+        "technologies": ["HTML", "CSS", "'Vanilla JavaScript'", "The DOM interaction", "The DOM manipulation"],
         "live_link": "https://kropacheven.github.io/data_pagination_and_filtering/",
         "github_link": "https://github.com/kropacheven/data_pagination_and_filtering",
         "img_urls": [
             "static/images/p2_banner.png",
             "static/images/p2_sup_1.png ",
-            "static/images/p2_sup_2.png "
+            "static/images/p2_sup_2.png ",
+            "static/images/p2_sup_3.png "
         ]
     },
     {
         "id": "2",
         "project_name": "Interactive form",
         "description": "This is an interactive form of fictional Full Stack Conference. Includes inputs, selection menus, checkboxes. The project demonstrates my skills on working with online forms by making them interactive by JS programming. Includes form validation and interactive correction after form is filled.",
-        "technologies": ["HTML", "CSS", "Vanilla JavaScript", "Forms creation and validation", "Regex"],
+        "technologies": ["HTML", "CSS", "'Vanilla JavaScript'", "Forms interaction", "Forms validation", "Regex"],
         "live_link": "https://kropacheven.github.io/Interactive_form/",
         "github_link": "https://github.com/kropacheven/Interactive_form",
         "img_urls": [
             "static/images/p3_banner.png",
             "static/images/p3_sup_1.png ",
-            "static/images/p3_sup_2.png "
+            "static/images/p3_sup_2.png ",
+            "static/images/p3_sup_3.png ",
+            "static/images/p3_sup_4.png "
         ]
     },
     {
         "id": "3",
         "project_name": "Object-oriented programming(OOP) game",
         "description": "This is the phrase guessing game. After pressing 'start button' the program gives user a random phrase to guess. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly five times, a losing screen appears. A player can guess a letter only once. After they have guessed a letter, this letter is disabled on the onscreen keyboard.",
-        "technologies": ["HTML", "CSS","Vanilla JavaScript", "DOM interaction and manipulations", "Object-oriented programming"],
+        "technologies": ["HTML", "CSS","'Vanilla JavaScript'", "The DOM interaction", "The DOM manipulations", "Object-oriented programming", "Advanced Event listeners"],
         "live_link": "https://kropacheven.github.io/oop_game/",
         "github_link": "https://github.com/kropacheven/oop_game",
         "img_urls": [
             "static/images/p4_banner.png",
             "static/images/p4_sup_1.png ",
-            "static/images/p4_sup_2.png "
+            "static/images/p4_sup_2.png ",
+            "static/images/p4_sup_3.png ",
+            "static/images/p4_sup_4.png ",
+            "static/images/p4_sup_5.png "
         ]
     },
     {
         "id": "4",
         "project_name": "Public API request",
         "description": " This is an employee directory which randomly displays a list of 12 employees extracted from external API every time the page loads. By clicking on any employee card the modal window with more detailed information pops up, later it can be closed by pressing 'X' button on right corner. Modal window is programmed for switching back and forth between displayed employees by adding functionality on 'Prev' and 'Next' buttons. Search bar is added to interactively filter employees. The header of the page is converted into dark style mode using CSS.",
-        "technologies": ["HTML", "CSS", "Vanilla JavaScript", "DOM interaction and manipulation", "Fetch (web) API request", "Asynchronous programming", "Regex"],
+        "technologies": ["HTML", "CSS", "'Vanilla JavaScript'", "The DOM interaction", "The DOM manipulation", "Web (fetch) API requests", "Asynchronous programming", "Regex"],
         "live_link": "https://kropacheven.github.io/public_API_request/",
         "github_link": "https://github.com/kropacheven/public_API_request",
         "img_urls": [
             "static/images/p5_banner.png",
             "static/images/p5_sup_1.png ",
-            "static/images/p5_sup_2.png "
+            "static/images/p5_sup_2.png ",
+            "static/images/p5_sup_3.png ",
+            "static/images/p5_sup_4.png ",
+            "static/images/p5_sup_5.png "
         ]
     }
     ]
