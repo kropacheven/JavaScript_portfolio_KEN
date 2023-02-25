@@ -1,7 +1,7 @@
 // ----------------------------------------   1. Initializing the app
 const express = require('express');
 const data = require('./data.json').projects;
-console.log(data[0]);
+//console.log(data[0]);
 //const path = require('path');
 
 const app = express();
@@ -18,7 +18,6 @@ app.use( '/static', express.static('public') );
 // a. Main page route:
 app.get('/', (req, res) => {
     res.render('index', { data } );
-    console.dir(data);
 });
 
 // b. About page route:
