@@ -8,11 +8,17 @@ block content
     h1 My Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p A set of my portfolio projects made with HTML, CSS, JavaScript and accomponied technologies and frameworks 
+    p A set of my projects made with HTML, CSS, JavaScript:
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
+
+      each project in data
+        .cell
+          a(href=project.live_link, target='_blank')
+            img(src=project.img_main, alt=project.project_name)
+            h5= project.project_name
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       

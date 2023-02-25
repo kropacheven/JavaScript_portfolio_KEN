@@ -10,7 +10,8 @@
             "static/images/p1_banner.png",
             "static/images/p1_sup_1.png ",
             "static/images/p1_sup_2.png "
-        ]
+        ],
+        "img_main": "static/images/p1_banner.png"
     },
     {
         "id": "1",
@@ -24,7 +25,8 @@
             "static/images/p2_sup_1.png ",
             "static/images/p2_sup_2.png ",
             "static/images/p2_sup_3.png "
-        ]
+        ],
+        "img_main": "static/images/p2_banner.png"
     },
     {
         "id": "2",
@@ -39,11 +41,12 @@
             "static/images/p3_sup_2.png ",
             "static/images/p3_sup_3.png ",
             "static/images/p3_sup_4.png "
-        ]
+        ],
+        "img_main": "static/images/p3_banner.png"
     },
     {
         "id": "3",
-        "project_name": "Object-oriented programming(OOP) game",
+        "project_name": "OOP game",
         "description": "This is the phrase guessing game. After pressing 'start button' the program gives user a random phrase to guess. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly five times, a losing screen appears. A player can guess a letter only once. After they have guessed a letter, this letter is disabled on the onscreen keyboard.",
         "technologies": ["HTML", "CSS","'Vanilla JavaScript'", "The DOM interaction", "The DOM manipulations", "Object-oriented programming", "Advanced Event listeners"],
         "live_link": "https://kropacheven.github.io/oop_game/",
@@ -55,7 +58,8 @@
             "static/images/p4_sup_3.png ",
             "static/images/p4_sup_4.png ",
             "static/images/p4_sup_5.png "
-        ]
+        ],
+        "img_main": "static/images/p4_banner.png"
     },
     {
         "id": "4",
@@ -71,7 +75,8 @@
             "static/images/p5_sup_3.png ",
             "static/images/p5_sup_4.png ",
             "static/images/p5_sup_5.png "
-        ]
+        ],
+        "img_main": "static/images/p5_banner.png"
     }
     ]
 }

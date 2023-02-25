@@ -17,7 +17,8 @@ app.use( '/static', express.static('public') );
 
 // a. Main page route:
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { data } );
+    console.dir(data);
 });
 
 // b. About page route:
