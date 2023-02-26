@@ -1,17 +1,16 @@
-// ----------------------------------------   1. Initializing the app
+// 1. Initializing the app
 const express = require('express');
 const data = require('./data.json').projects;
 
 const app = express();
 
-// ----------------------------------------  2. Setting view engine to pug
+// 2. Setting view engine to pug
 app.set('view engine', 'pug');
-//app.use('/static', express.static('public'));
 
-// ----------------------------------------  3. Setting static server:
+// 3. Setting static server:
 app.use( '/static', express.static('public') );
 
-// ----------------------------------------  4. Setting app routes
+// 4. Setting app routes
 
 // a. Main page route:
 app.get('/', (req, res) => {
@@ -37,7 +36,7 @@ app.get('/project/:id', (req, res) => {
 });
 
 
-// ------------------   5. Error handling:
+// 5. Error handling:
 
 // a. 404 error handler:
 app.use( (req, res, next) => {
@@ -58,8 +57,6 @@ app.use( (err, req, res, next) => {
         res.render('error', {err});  
     }
 });
-
-
 
 // ------------------   6. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
 app.listen(3000, () => {
