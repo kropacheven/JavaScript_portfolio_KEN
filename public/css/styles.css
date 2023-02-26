@@ -362,3 +362,22 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/* 
+Final touches
+ */
+
+.portfolio-intro {
+  background-color: rgb(233, 231, 231);
+}
+
+.portfolio-intro p {
+  color: black;
+}
+
+.thumbnail:hover {
+  transform: scale(1.23);
+  transition: .5s ease-out ;
+}
+
+
