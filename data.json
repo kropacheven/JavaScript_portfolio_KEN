@@ -32,7 +32,7 @@
         "id": "2",
         "project_name": "Interactive form",
         "description": "This is an interactive form of fictional Full Stack Conference. Includes inputs, selection menus, checkboxes. The project demonstrates my skills on working with online forms by making them interactive by JS programming. Includes form validation and interactive correction after form is filled.",
-        "technologies": ["HTML", "CSS", "'Vanilla JavaScript'", "Forms interaction", "Forms validation", "Regex"],
+        "technologies": ["HTML", "CSS", "'Vanilla JavaScript'", "The DOM interaction", "Forms interaction", "Forms validation", "Regex"],
         "live_link": "https://kropacheven.github.io/Interactive_form/",
         "github_link": "https://github.com/kropacheven/Interactive_form",
         "img_urls": [
@@ -48,7 +48,7 @@
         "id": "3",
         "project_name": "OOP game",
         "description": "This is the phrase guessing game. After pressing 'start button' the program gives user a random phrase to guess. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly five times, a losing screen appears. A player can guess a letter only once. After they have guessed a letter, this letter is disabled on the onscreen keyboard.",
-        "technologies": ["HTML", "CSS","'Vanilla JavaScript'", "The DOM interaction", "The DOM manipulations", "Object-oriented programming", "Advanced Event listeners"],
+        "technologies": ["HTML", "CSS","'Vanilla JavaScript'", "The DOM interaction", "Object-oriented programming", "Advanced Event listeners"],
         "live_link": "https://kropacheven.github.io/oop_game/",
         "github_link": "https://github.com/kropacheven/oop_game",
         "img_urls": [
@@ -65,7 +65,7 @@
         "id": "4",
         "project_name": "Public API request",
         "description": " This is an employee directory which randomly displays a list of 12 employees extracted from external API every time the page loads. By clicking on any employee card the modal window with more detailed information pops up, later it can be closed by pressing 'X' button on right corner. Modal window is programmed for switching back and forth between displayed employees by adding functionality on 'Prev' and 'Next' buttons. Search bar is added to interactively filter employees. The header of the page is converted into dark style mode using CSS.",
-        "technologies": ["HTML", "CSS", "'Vanilla JavaScript'", "The DOM interaction", "The DOM manipulation", "Web (fetch) API requests", "Asynchronous programming", "Regex"],
+        "technologies": ["HTML", "CSS", "'Vanilla JavaScript'", "The DOM interaction", "Web (fetch) API requests", "Asynchronous programming", "Regex"],
         "live_link": "https://kropacheven.github.io/public_API_request/",
         "github_link": "https://github.com/kropacheven/public_API_request",
         "img_urls": [
