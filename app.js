@@ -38,6 +38,7 @@ app.get('/project/:id', (req, res) => {
 
 
 // ------------------   5. Error handling:
+
 // a. 404 error handler:
 app.use( (req, res, next) => {
     const err = new Error('Sorry. Not Found...');
@@ -47,9 +48,15 @@ app.use( (req, res, next) => {
 
 // b. Global error handler:
 app.use( (err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error');
+    if (err.status === 404) {
+        res.locals.error = err;
+        res.status(err.status);
+        res.render('page-not-found', {err});
+    } else {
+        res.locals.error = err;
+        res.status(500);
+        res.render('error', {err});  
+    }
 });
 
 

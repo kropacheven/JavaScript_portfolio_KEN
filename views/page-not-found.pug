@@ -1,11 +1,11 @@
 extends layout.pug
 
 block content
-    h1 There is an internal server error. Please ty again later.
+    h1= error.message 
     h2= error.status 
     pre= error.stack
     br
-
+    
     nav.nav
       a(href='/')
         span &larr;
