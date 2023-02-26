@@ -26,7 +26,7 @@ app.get('/about', (req, res) => {
 // c. Dynamic projects routes:
 
 // Project # - (from 0 t0 4)
-//let index = 4;
+//let id = 4;
 
 app.get('/project/:id', (req, res) => {
     //res.locals.project_name = data[0].project_name;
@@ -37,11 +37,24 @@ app.get('/project/:id', (req, res) => {
 });
 
 
-// (based on the id of the project that render a customized version of the Pug project template to show off each project):
+// ------------------   5. Error handling:
+// a. 404 error handler:
+app.use( (req, res, next) => {
+    const err = new Error('Sorry. Not Found...');
+    err.status = 404;
+    next(err);
+});
+
+// b. Global error handler:
+app.use( (err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
+});
 
 
 
-// ------------------   5. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
+// ------------------   6. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
 app.listen(3000, () => {
     console.log('The app is running at localhost 3000');
 });
