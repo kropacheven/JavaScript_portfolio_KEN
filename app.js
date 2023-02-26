@@ -58,7 +58,7 @@ app.use( (err, req, res, next) => {
     }
 });
 
-// ------------------   6. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
+// 6. Starting server, app is listening on port 3000 and logs the port at the terminal console( with nodeman)
 app.listen(3000, () => {
     console.log('The app is running at localhost 3000');
 });

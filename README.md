@@ -5,7 +5,7 @@
  Full Stack JavaScript Techdegree at Treehouse. The site contains main landing page,
  about page and a set of pages separetely dedicated in more detail to each of the projects.
 
- The app is build using dynamic page representation to the user with help of Node.js, Express and Pug. JSON file is used as a sourse of projects data. Node modules are not loaded on GitHub.
+ The app is build using dynamic page represented to the user with Node.js, Express and Pug. JSON file is used as a sourse of projects data. Node modules are not loaded on GitHub.
  When the user types wrong URL route error is being handled by middleware. 
 
  Technologies used: HTML, CSS, JavaScript, Node.js with Express and Pug, npm as package manager.
