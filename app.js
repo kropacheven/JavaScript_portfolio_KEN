@@ -27,12 +27,18 @@ app.get('/about', (req, res) => {
 // Project # - (from 0 t0 4)
 //let id = 4;
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
     //res.locals.project_name = data[0].project_name;
     //res.locals.project_desc = data[0].description;
     let id = req.params.id;
     //console.log(id);
-    res.render('project', {project_name: data[id].project_name, project_desc: data[id].description, live_link: data[id].live_link, github_link: data[id].github_link, project_techs: data[id].technologies, project_img: data[id].img_urls });
+    if (id) {
+        res.render('project', {project_name: data[id].project_name, project_desc: data[id].description, live_link: data[id].live_link, github_link: data[id].github_link, project_techs: data[id].technologies, project_img: data[id].img_urls });
+    } else {
+        const err = new Error('Looks this quote does not exists. Please try another one.')
+        err.status = 501;
+        next(err)
+    }
 });
 
 
@@ -47,7 +53,6 @@ app.use( (req, res, next) => {
 
 // b. Global error handler:
 app.use( (err, req, res, next) => {
-    res.locals.err = err;
     if (err.status === 404) {
         res.render( 'page-not-found', {err} );
     } else {
