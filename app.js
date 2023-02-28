@@ -45,10 +45,9 @@ app.use( (req, res, next) => {
     next(err);
 });
 
-
 // b. Global error handler:
 app.use( (err, req, res, next) => {
-    res.locals.error = err;
+    res.locals.err = err;
     if (err.status === 404) {
         res.render( 'page-not-found', {err} );
     } else {
